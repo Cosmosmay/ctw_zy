@@ -1,0 +1,15 @@
+Name: airbnb-api
+Host: 0.0.0.0
+Port: 8888
+Database:
+  Type: mysql
+  Host: 127.0.0.1
+  Port: 5432
+  User: root
+  Password: "!QAZ@WSX#EDC"
+  Name: tw
+  SslMode: disable
+  Options: parseTime=true&loc=UTC&multiStatements=true
+  MaxConnections: 100
+  MaxIdleConnections: 32
+  MaxLifeTime: 300

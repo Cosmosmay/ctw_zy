@@ -1,5 +1,5 @@
 CREATE TABLE airbnb_info (
-   id BIGINT AUTO_INCREMENT PRIMARY KEY,
+   id BIGINT AUTO_INCREMENT,
    airbnb_url VARCHAR(255) NOT NULL UNIQUE, -- Reduced length and added unique constraint for URLs.
    hotel_name VARCHAR(150) NOT NULL,        -- Increased length slightly for flexibility.
    star TINYINT UNSIGNED NOT NULL,          -- `TINYINT` saves space for small numbers.
